@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="progress_dark">@android:color/holo_blue_light</color>
+    <color name="progress_normal">@android:color/holo_blue_bright</color>
+    <color name="progress_light">@android:color/white</color>
+
+</resources>

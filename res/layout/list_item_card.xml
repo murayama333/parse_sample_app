@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="12dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+			android:layout_toLeftOf="@+id/iconLayout"
+            >
+            <TextView
+	            android:id="@+id/message"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+				android:textSize="14sp"
+				android:textColor="#666666" />
+            <TextView
+	            android:id="@android:id/text1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="4dp"
+	            android:layout_marginRight="8dp"
+				android:textSize="14sp"
+	            android:textColor="#999999" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iconLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+			android:layout_alignParentRight="true"
+            >
+	        
+	        <com.parse.ParseImageView
+	            android:id="@android:id/icon"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            />
+    		<View
+		        android:layout_width="match_parent"
+        		android:layout_height="1dp"
+        		android:background="#cccccc" />
+      		</LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nowhereman</string>
+    <string name="event_title">SQLWorld 大阪#20</string>
+    <string name="action_entry">書く</string>
+    <string name="action_save">投稿</string>
+    <string name="action_settings">設定</string>
+    <string name="hint_message">140文字以内でメッセージ入力</string>
+    <string name="hint_name">お名前</string>
+    <string name="save_success">保存しました！</string>    
+</resources>
